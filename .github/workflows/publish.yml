@@ -18,8 +18,8 @@ jobs:
       - name: Save Result
         uses: actions/upload-artifact@v3
         with:
-          name: express-proxyfile
-          path: express-proxyfile-*.tgz
+          name: lesfabricants-express-proxyfile
+          path: lesfabricants-express-proxyfile-*.tgz
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
