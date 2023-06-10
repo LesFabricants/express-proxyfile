@@ -1,7 +1,7 @@
 import { S3ClientConfig } from "@aws-sdk/client-s3";
 import { S3Client, GetObjectCommand } from "@aws-sdk/client-s3";
 
-import { fileProxy } from "core";
+import { fileProxy } from "./core";
 
 const s3Proxy = (config: S3ClientConfig, Bucket: string) => {
   const s3client = new S3Client(config);
