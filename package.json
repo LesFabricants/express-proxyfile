@@ -1,6 +1,6 @@
 {
   "name": "@lesfabricants/express-proxyfile",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple library to replace any current express application that uses the file system to serve files to switch to a cloud service",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
